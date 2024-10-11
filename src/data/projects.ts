@@ -2,15 +2,7 @@ import Astro from "@/icons/react-icons/Astro";
 import NextJS from "@/icons/react-icons/NextJS";
 import type { iProjects } from "@/types";
 
-import {
-  BoxIcon,
-  ComponentIcon,
-  CrownIcon,
-  LinkIcon,
-  MessageCircle,
-  PenLineIcon,
-  X,
-} from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 export const featuredProjects: iProjects[] = [
   {

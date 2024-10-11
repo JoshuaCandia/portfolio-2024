@@ -1,4 +1,3 @@
-import defaultTheme from "tailwindcss/defaultTheme";
 import animate from "tailwindcss-animate";
 
 export default {
