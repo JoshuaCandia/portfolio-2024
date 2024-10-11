@@ -92,7 +92,7 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
                 className="group flex items-center gap-[6px] font-medium decoration-neutral-500 decoration-dotted underline-offset-[5px] hover:underline dark:text-white dark:hover:text-white"
               >
                 <span>{title}</span>
-                <ArrowUpRight width={13} height={13} />
+                <ArrowUpRight width={19} height={13} />
               </a>
             ) : (
               <p className="font-medium">{title}</p>
@@ -108,7 +108,7 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
                 rel="noopener"
                 className="opacity-75 transition-opacity duration-100 hover:opacity-100 dark:text-neutral-400"
               >
-                <GitHub width={13} height={13} />
+                <GitHub width={19} height={19} />
               </a>
             )}
           </div>
