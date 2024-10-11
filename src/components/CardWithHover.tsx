@@ -95,7 +95,9 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
                 <ArrowUpRight width={19} height={13} />
               </a>
             ) : (
-              <p className="font-medium">{title}</p>
+              <p className="font-medium dark:text-white dark:hover:text-whit">
+                {title}
+              </p>
             )}
           </div>
           <div className="flex items-center gap-2">
