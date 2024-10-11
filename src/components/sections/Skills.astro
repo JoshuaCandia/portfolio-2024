@@ -1,0 +1,67 @@
+---
+import Section from "../Section.astro";
+import HTML from "@/icons/astro-icons/html.astro";
+import CSS from "@/icons/astro-icons/css.astro";
+import JavaScript from "@/icons/astro-icons/javascript.astro";
+import TypeScript from "@/icons/astro-icons/type.astro";
+import React from "@/icons/astro-icons/react.astro";
+import Node from "@/icons/astro-icons/node.astro";
+import MySQL from "@/icons/astro-icons/sql.astro";
+import Git from "@/icons/astro-icons/git.astro";
+import GitHub from "@/icons/astro-icons/github.astro";
+import Tailwind from "@/icons/astro-icons/tailwind.astro";
+import Next from "@/icons/astro-icons/next.astro";
+import { skills } from "@cv";
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Next,
+  Tailwind,
+  Astro,
+};
+---
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const iconName = name === "Next.js" ? "Next" : name;
+        const Icon = SKILLS_ICONS[iconName];
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>
