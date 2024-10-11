@@ -1,6 +1,6 @@
 import React from "react";
 import { Sun, Moon } from "lucide-react";
-import { useMode } from "../hooks/useMode";
+import { useMode } from "@/hooks/useMode";
 
 interface ModeToggleProps {
   iconSize?: number;
@@ -17,7 +17,7 @@ const ModeToggle: React.FC<ModeToggleProps> = ({
     <button
       onClick={toggleMode}
       title="Change theme"
-      className="inline-flex items-center space-x-3 justify-center whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 disabled:pointer-events-none disabled:opacity-50 dark:focus-visible:ring-neutral-700 focus-visible:ring-neutral-500 hover:bg-neutral-300 hover:text-neutral-900 dark:text-neutral-50 h-9 w-9 group opacity-80 transition-opacity duration-150 hover:opacity-100"
+      className="inline-flex items-center space-x-3 justify-center whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 disabled:pointer-events-none disabled:opacity-50 dark:focus-visible:ring-neutral-700 focus-visible:ring-neutral-500 h-9 w-9 group opacity-80 transition-opacity duration-150 hover:opacity-100 hover:bg-neutral-200 dark:hover:bg-neutral-700 hover:text-neutral-900 text-neutral-900 dark:text-neutral-100/90 dark:hover:text-neutral-100"
     >
       {mode === "dark" ? (
         <Sun

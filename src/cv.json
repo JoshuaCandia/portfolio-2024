@@ -1,0 +1,308 @@
+{
+  "basics": {
+    "name": "Joshua Candia",
+    "label": "Desarrollador Frontend enfocado en la creación de aplicaciones web y móviles con mucha atención al detalle.",
+    "label-english": "Frontend Developer with more than 1 year of experience in Web Programming",
+    "image": "https://media.licdn.com/dms/image/v2/D4D03AQFLikcnjknEaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683552062345?e=1733961600&v=beta&t=9igFGDK25YvD1j4Imn3IqRT8JC534O8qbeXwIRrt3kk",
+    "email": "joshuacandia99@gmail.com",
+    "phone": "+54 9 11 4173 9482",
+    "url": "https://joshuacandia.vercel.app",
+    "summary": "Tengo más de 1 año de experiencia como Desarrollador Web y actualmente trabajo en UILS,donde me encargué de crear y mantener aplicaciones web y móviles. Me apasiona la tecnología y siempre busco ampliar mis conocimientos. Me considero una persona proactiva, responsable y comprometida con mi crecimiento profesional.",
+    "summary-english": "I have over 1 year of experience as a Web Developer and currently work at UILS, a software development company where I have developed both web and mobile applications. I am passionate about technology and continuously seek to expand my knowledge. I consider myself proactive, responsible, and committed to ongoing professional growth.",
+    "location": {
+      "address": "San Juan 915",
+      "postalCode": "1617",
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "joshua-candia",
+        "url": "https://linkedin.com/in/candiajoshua"
+      },
+
+      {
+        "network": "GitHub",
+        "username": "JoshuaCandia",
+        "url": "https://github.com/joshuacandia"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "UILS",
+      "position": "Junior Frontend Developer",
+      "url": "https://uils.la",
+      "startDate": "2024-01-21",
+      "endDate": null,
+      "summary": "Colaboración con desarrolladores y diseñadores para entregar proyectos de alta calidad. Uso de tecnologías modernas como React, Next.js, Astro, y librerías de estilado como Tailwind, SCSS, etc, con la finalidad de crear aplicaciones escalables y eficientes.",
+      "summary-english": "Collaborated with developers and designers to deliver high-quality projects. Leveraged modern technologies such as React, Next.js, TailwindCSS, Node.js, Express, MongoDB, and more to build scalable and efficient applications.",
+      "highlights": ["First job"]
+    },
+    {
+      "name": "Freelancer",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2022-06-23",
+      "endDate": "2024-01-05",
+      "summary": "Desarrollo autónomo de aplicaciones web y móviles adaptadas a las necesidades de los clientes, colaborando con equipos multidisciplinarios cuando es necesario. Entrega de soluciones escalables y mantenibles utilizando tecnologías como React, Next.js, TailwindCSS, Node.js, Express, Sequelize, PostgreSQL, entre otras. Enfoque en la creación de aplicaciones centradas en el usuario, gestionando múltiples proyectos freelance de manera simultánea.",
+      "summary-english": "Independently developed web and mobile applications tailored to client needs, collaborating with cross-functional teams of designers and developers when necessary. Delivered scalable and maintainable solutions using a tech stack that included React, Next.js, TailwindCSS, Node.js, Express, Sequelize, PostgreSQL, and others. Focused on creating high-impact, user-centric applications while managing multiple freelance projects simultaneously.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Técnica Nacional",
+      "url": "https://sceu.frba.utn.edu.ar",
+      "area": "Tecnicatura Superior en Programación",
+      "studyType": "Tecnicatura",
+      "startDate": "2023-09-01",
+      "endDate": "2025-10-01",
+      "score": "9.0",
+      "courses": [
+        "Higher technical degree in programming",
+        "Web programming",
+        "Mobile programming"
+      ]
+    },
+    {
+      "institution": "Henry",
+      "url": "https://sceu.frba.utn.edu.ar",
+      "area": "Desarrollo Full Stack",
+      "studyType": "Curso",
+      "startDate": "2023-02-01",
+      "endDate": "2023-08-15",
+      "score": "9.0",
+      "courses": [
+        "Frontend programming",
+        "Backend programming",
+        "Fullstack programming"
+      ]
+    },
+    {
+      "institution": "CoderHouse",
+      "url": "https://coderhouse.com",
+      "area": "Desarrollo Web",
+      "studyType": "Curso",
+      "startDate": "2022-07-01",
+      "endDate": "2022-09-01",
+      "score": "9.0",
+      "courses": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node",
+        "Express",
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Curso Full Stack en Henry",
+      "date": "2023-08-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Aprendiz",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Aprendiz",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermedio",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Pádel",
+      "keywords": ["Arturo Coello", "Premier"]
+    },
+    {
+      "name": "Fútbol",
+      "keywords": ["Messi", "Liverpool"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": ["Elige tu propia aventura", "En desarrollo"],
+      "url": "https://mars.codes"
+    },
+    {
+      "name": "AdventJS",
+      "isActive": true,
+      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "highlights": [
+        "+1 millón de visitas",
+        "Multidioma",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://adventjs.dev"
+    },
+    {
+      "name": "Codember",
+      "isActive": true,
+      "description": "Juego interactivo de programación con retos y secretos",
+      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
+      "url": "https://codember.dev"
+    },
+    {
+      "name": "codi.link",
+      "isActive": true,
+      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
+      "url": "https://codi.link",
+      "github": "https://github.com/midudev/codi.link"
+    },
+    {
+      "name": "Pruebas Técnicas",
+      "isActive": true,
+      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/midudev/pruebas-tecnicas"
+    },
+    {
+      "name": "miduConf",
+      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
+      "url": "https://miduconf.com"
+    }
+  ]
+}

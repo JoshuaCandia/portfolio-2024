@@ -1,0 +1,21 @@
+---
+import { ANIMATION_ROUTES } from "@/utils/consts";
+import { cn } from "@/utils/cn";
+// se ejecuta en el servidor o en build time <----
+const { title } = Astro.props;
+---
+
+<section class={cn("max-w-xl mx-auto mb-12", ANIMATION_ROUTES)}>
+  {
+    title && (
+      <h2 class="mb-2 font-bold leading-snug text-xl dark:text-white">
+        {title}
+      </h2>
+    )
+  }
+  <slot />
+</section>
+
+<script>
+  // se ejecuta en el cliente <----
+</script>

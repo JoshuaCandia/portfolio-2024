@@ -1,23 +1,34 @@
-/** @type {import('tailwindcss').Config} */
+import defaultTheme from "tailwindcss/defaultTheme";
+import animate from "tailwindcss-animate";
 
 export default {
+  darkMode: "selector",
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
-
-  theme: {},
-  extend: {
-    animation: {
-      shine: "shine 2s linear infinite",
+  safelist: ["dark"],
+  plugins: [animate],
+  theme: {
+    container: {
+      center: true,
+      paddingTop: "1rem",
+      paddingBottom: "1rem",
+      screens: {
+        "2xl": "1400px",
+      },
     },
-    keyframes: {
-      shine: {
-        from: {
-          backgroundPosition: "0 0",
-        },
-        to: {
-          backgroundPosition: "-200% 0",
+    extend: {
+      animation: {
+        shine: "shine 2s linear infinite",
+      },
+      keyframes: {
+        shine: {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
         },
       },
     },
   },
-  plugins: [],
 };

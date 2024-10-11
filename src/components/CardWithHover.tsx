@@ -1,6 +1,9 @@
 import React, { useState, useRef } from "react";
-import ShineBadge from "../ui/ShineBadge";
-import GitHub from "../icons/Github";
+import ShineBadge from "@/ui/ShineBadge";
+import GitHub from "@/icons/react-icons/Github";
+import Badge from "@/ui/Badge";
+import { ArrowUpRight } from "lucide-react";
+import { cn } from "@/utils/cn";
 
 interface CardWithHoverProps {
   title: string;
@@ -14,6 +17,7 @@ interface CardWithHoverProps {
   tags: string[];
   latest?: boolean;
   stars?: number;
+  isProjectPath?: boolean;
 }
 
 const CardWithHover: React.FC<CardWithHoverProps> = ({
@@ -27,6 +31,7 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
   mainTechName,
   tags,
   latest,
+  isProjectPath,
 }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [opacity, setOpacity] = useState(0);
@@ -49,7 +54,6 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
 
   return (
     <div
-      role="contentinfo"
       ref={divRef}
       onMouseMove={handleMouseMove}
       onFocus={handleFocus}
@@ -62,7 +66,7 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
         aria-hidden="true"
         className={`pointer-events-none absolute left-0 top-0 z-10 h-full w-full cursor-default rounded-[0.310rem] border transition-opacity duration-500 ${
           focused ? "border-white/50" : "border-black/50"
-        }`}
+        } dark:border-white/50`}
         style={{
           opacity,
           WebkitMaskImage: `radial-gradient(30% 30px at ${position.x}px ${position.y}px, black 45%, transparent)`,
@@ -85,10 +89,10 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
                 href={websiteUrl}
                 target="_blank"
                 rel="noopener"
-                className="group flex items-center gap-[6px] font-medium decoration-neutral-500 decoration-dotted underline-offset-[5px] hover:underline"
+                className="group flex items-center gap-[6px] font-medium decoration-neutral-500 decoration-dotted underline-offset-[5px] hover:underline dark:text-white dark:hover:text-white"
               >
                 <span>{title}</span>
-                <GitHub width={13} height={13} />
+                <ArrowUpRight width={13} height={13} />
               </a>
             ) : (
               <p className="font-medium">{title}</p>
@@ -102,14 +106,21 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
                 title={`View ${title} repository on GitHub`}
                 target="_blank"
                 rel="noopener"
-                className="opacity-75 transition-opacity duration-100 hover:opacity-100"
+                className="opacity-75 transition-opacity duration-100 hover:opacity-100 dark:text-neutral-400"
               >
                 <GitHub width={13} height={13} />
               </a>
             )}
           </div>
         </div>
-        <p className="truncate text-sm dark:text-neutral-400">{description}</p>
+        <p
+          className={cn(
+            "text-sm dark:text-neutral-400",
+            !isProjectPath && "truncate"
+          )}
+        >
+          {description}
+        </p>
         <div className="hidden items-center space-x-2 overflow-x-auto md:flex">
           {MainTechIcon && (
             <a
@@ -124,9 +135,7 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
           )}
           <div className="flex items-center space-x-1">
             {tags.map((tag) => (
-              <span key={tag} className="badge">
-                {tag}
-              </span>
+              <Badge key={tag}>{tag}</Badge>
             ))}
           </div>
         </div>
