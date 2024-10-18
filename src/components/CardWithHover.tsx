@@ -1,9 +1,9 @@
-import React, { useState, useRef } from "react";
-import ShineBadge from "@/ui/ShineBadge";
 import GitHub from "@/icons/react-icons/Github";
 import Badge from "@/ui/Badge";
-import { ArrowUpRight } from "lucide-react";
+import ShineBadge from "@/ui/ShineBadge";
 import { cn } from "@/utils/cn";
+import { ArrowUpRight } from "lucide-react";
+import React, { useRef, useState } from "react";
 
 interface CardWithHoverProps {
   title: string;
@@ -16,6 +16,7 @@ interface CardWithHoverProps {
   mainTechName?: string;
   tags: string[];
   latest?: boolean;
+  progress?: boolean;
   stars?: number;
   isProjectPath?: boolean;
 }
@@ -31,6 +32,7 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
   mainTechName,
   tags,
   latest,
+  progress,
   isProjectPath,
 }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -51,6 +53,8 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
   const handleBlur = () => setFocused(false);
   const handleMouseEnter = () => setOpacity(1);
   const handleMouseLeave = () => setOpacity(0);
+
+  const finalTags = isProjectPath ? tags : tags.slice(0, 3);
 
   return (
     <div
@@ -102,6 +106,7 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
           </div>
           <div className="flex items-center gap-2">
             {latest && <ShineBadge>latest</ShineBadge>}
+            {progress && <ShineBadge>progress</ShineBadge>}
             {githubUrl && (
               <a
                 href={githubUrl}
@@ -136,7 +141,7 @@ const CardWithHover: React.FC<CardWithHoverProps> = ({
             </a>
           )}
           <div className="flex items-center space-x-1">
-            {tags.map((tag) => (
+            {finalTags.map((tag) => (
               <Badge key={tag}>{tag}</Badge>
             ))}
           </div>

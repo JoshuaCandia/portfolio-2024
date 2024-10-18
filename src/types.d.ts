@@ -10,6 +10,7 @@ export interface iProjects {
   techIcon: any;
   mainTech: iMainTech;
   latest?: boolean;
+  progress?: boolean;
 }
 
 export interface iMainTech {

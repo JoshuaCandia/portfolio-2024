@@ -1,9 +1,9 @@
-import { useEffect, useState, type FC } from "react";
-import CardWithHover from "../CardWithHover";
 import { featuredProjects } from "@/data/projects";
 import type { iProjects } from "@/types";
-import { ArrowUpRight } from "lucide-react";
 import { cn } from "@/utils/cn";
+import { ArrowUpRight } from "lucide-react";
+import { useEffect, useState, type FC } from "react";
+import CardWithHover from "../CardWithHover";
 
 const Projects: FC = () => {
   const [currentPath, setCurrentPath] = useState<string>("");
@@ -49,6 +49,7 @@ const Projects: FC = () => {
             mainTechName={project.mainTech.title}
             tags={project.tags}
             latest={project.latest}
+            progress={project.progress}
           />
         ))}
       </div>
