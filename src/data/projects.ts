@@ -24,8 +24,8 @@ export const featuredProjects: iProjects[] = [
     },
   },
   {
-    title: "Apple Clone",
-    description: "🍎 Un clon de la página de inicio de Apple.",
+    title: "Apple",
+    description: "🍎 Un clon de la página de inicio del iPhone 15.",
     tags: ["F. Motion", "Tailwind", "D3.js", "React"],
     url: "https://apple-clone.joshuacandia.dev",
     githubUrl: "https://github.com/JoshuaCandia/apple_website",
