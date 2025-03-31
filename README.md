@@ -3,9 +3,6 @@
 <h2>
     <em>Portfolio</em> minimalista maquetado para web y pdf
 </h2>
-<p>
-Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
-</p>
 
 <p>
 Basado en el diseño de <a href="https://github.com/midudev/minimalist-portfolio-json">Midudev</a>
@@ -14,21 +11,6 @@ Basado en el diseño de <a href="https://github.com/midudev/minimalist-portfolio
 
 </div>
 
-<div align="center">
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🧞-comandos">
-        Comandos
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#🔑-licencia">
-        Licencia
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="https://joshuacandia.dev">
-        Personal
-    </a>
-   
-</div>
 
 <p></p>
 
