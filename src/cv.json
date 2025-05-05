@@ -7,8 +7,8 @@
     "email": "joshuacandia99@gmail.com",
     "phone": "+54 9 11 4173 9482",
     "url": "https://joshuacandia.vercel.app",
-    "summary": "Tengo más de 1 año de experiencia como Desarrollador Web y actualmente trabajo en UILS,donde me encargué de crear y mantener aplicaciones web y móviles. Me apasiona la tecnología y siempre busco ampliar mis conocimientos. Me considero una persona proactiva, responsable y comprometida con mi crecimiento profesional.",
-    "summary-english": "I have over 1 year of experience as a Web Developer and currently work at UILS, a software development company where I have developed both web and mobile applications. I am passionate about technology and continuously seek to expand my knowledge. I consider myself proactive, responsible, and committed to ongoing professional growth.",
+    "summary": "Tengo más de 2 años de experiencia como Desarrollador Web y actualmente trabajo en manda,donde me 0e crear y mantener aplicaciones web y móviles. Me apasiona la tecnología y siempre busco ampliar mis conocimientos. Me considero una persona proactiva, responsable y comprometida con mi crecimiento profesional.",
+    "summary-english": "I have over 2 0years of experience as a Web Developer and currently work at manda, a software development company where I have developed both web and mobile applications. I am passionate about technology and continuously seek to expand my knowledge. I consider myself proactive, responsible, and committed to ongoing professional growth.",
     "location": {
       "address": "San Juan 915",
       "postalCode": "1617",
@@ -32,10 +32,10 @@
   },
   "work": [
     {
-      "name": "UILS",
-      "position": "Frontend Developer",
+      "name": "manda",
+      "position": "Full Stack Developer",
       "url": "https://uils.la",
-      "startDate": "2024-01-21",
+      "startDate": "2023-01-21",
       "endDate": null,
       "summary": "Colaboración con desarrolladores y diseñadores para entregar proyectos de alta calidad. Uso de tecnologías modernas como React, Next.js, Astro, y librerías de estilado como Tailwind, SCSS, etc, con la finalidad de crear aplicaciones escalables y eficientes.",
       "summary-english": "Collaborated with developers and designers to deliver high-quality projects. Leveraged modern technologies such as React, Next.js, TailwindCSS, Node.js, Express, MongoDB, and more to build scalable and efficient applications.",
@@ -69,8 +69,8 @@
       "url": "https://sceu.frba.utn.edu.ar",
       "area": "Tecnicatura Superior en Programación",
       "studyType": "Tecnicatura",
-      "startDate": "2023-09-01",
-      "endDate": "2025-10-01",
+      "startDate": "2024-09-01",
+      "endDate": "2027-10-01",
       "score": "9.0",
       "courses": [
         "Higher technical degree in programming",
